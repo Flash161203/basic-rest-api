@@ -3,7 +3,7 @@ Basic REST API built using Express.js
 
 ## Requirements:
 
-You need to have Node.js installed in order to run this project.
+**You need to have `Node.js` installed in order to run this project.**
 
 To be able to get this server running, please make sure you have installed `Express.js`. You can do so using:
 ```
