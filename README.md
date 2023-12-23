@@ -10,7 +10,8 @@ To be able to get this server running, please make sure you have installed `Expr
 npm install express
 ```
 
-You can then run the server using:
+## How to run
+You can run the server using:
 ```
 cd <project directory>
 node .
