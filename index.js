@@ -13,24 +13,13 @@ app.use(express.json());
  * Array of posts.
  * @type {Array}
  */
-const postList = [
-  {
-    id: 0,
-    title: "First",
-    content: "This is the first post",
-  },
-  {
-    id: 1,
-    title: "Second",
-    content: "This is the second post",
-  },
-];
+const postList = [];
 
 /**
  * The next available ID for a new post.
  * @type {number}
  */
-var nextId = 2;
+var nextId = 0;
 
 /**
  * Get all posts.
