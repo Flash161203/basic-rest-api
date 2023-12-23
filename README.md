@@ -27,13 +27,17 @@ node .
    - Fetches the post with the id `{id}`
 
 3. POST `/posts`
-   - Creates a post.
+   - Creates a post with the given title and content
 
 4. PATCH `/posts/{id}`
-   - Edits the post with the id `{id}`
+   - Edits the post with the id `{id}` with new title and/or content
 
 5. DELETE `/posts/{id}`
    - Deletes the post with the id `{id}`
+  
+### Post Model
+- `title` : string
+- `content` : string
 
 ### API Request format
 
