@@ -1,5 +1,5 @@
 # basic-rest-api
-Basic REST API built using Express.js
+Basic REST API built using Express.js for **Kontinentalist Intern Assignment**.
 
 ## Requirements:
 
