@@ -1,5 +1,5 @@
-# basic-rest-api
-Basic REST API built using Express.js for **Kontinentalist Intern Assignment**.
+# Basic REST API
+Basic REST API built using `Express.js` for **Kontinentalist Intern Assignment**.
 
 ## Requirements:
 
@@ -28,9 +28,11 @@ node .
 
 3. POST `/posts`
    - Creates a post with the given title and content
+   - Request body must contain **both** of the fields `title` and `content`
 
 4. PATCH `/posts/{id}`
    - Edits the post with the id `{id}` with new title and/or content
+   - Request body must contain **at least one** of the fields `title` and `content`
 
 5. DELETE `/posts/{id}`
    - Deletes the post with the id `{id}`
@@ -41,7 +43,7 @@ node .
 
 ### API Request format
 
-The body of the API request must be in JSON, with the required fields
+The body of the API request must be parsable to JSON, with all the required fields
 
 ### API Response format
 
